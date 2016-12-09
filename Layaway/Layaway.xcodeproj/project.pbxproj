@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		880217B71AC0504A00EE4DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 880217B61AC0504A00EE4DDA /* main.m */; };
+		880217BA1AC0504B00EE4DDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 880217B91AC0504B00EE4DDA /* AppDelegate.m */; };
+		880217BD1AC0504B00EE4DDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 880217BC1AC0504B00EE4DDA /* ViewController.m */; };
+		880217C01AC0504B00EE4DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880217BE1AC0504B00EE4DDA /* Main.storyboard */; };
+		880217C21AC0504B00EE4DDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880217C11AC0504B00EE4DDA /* Images.xcassets */; };
+		880217C51AC0504B00EE4DDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880217C31AC0504B00EE4DDA /* LaunchScreen.xib */; };
+		880217D11AC0504B00EE4DDA /* LayawayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 880217D01AC0504B00EE4DDA /* LayawayTests.m */; };
+		88663CDD1AC05B8800E80DD3 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88663CDC1AC05B8800E80DD3 /* PageContentViewController.m */; };
+		88663CE21AC05CD500E80DD3 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = 88663CDE1AC05CD500E80DD3 /* page1.png */; };
+		88663CE31AC05CD500E80DD3 /* page4.png in Resources */ = {isa = PBXBuildFile; fileRef = 88663CDF1AC05CD500E80DD3 /* page4.png */; };
+		88663CE41AC05CD500E80DD3 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = 88663CE01AC05CD500E80DD3 /* page3.png */; };
+		88663CE51AC05CD500E80DD3 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88663CE11AC05CD500E80DD3 /* page2.png */; };
+		88663CE71AC0681900E80DD3 /* Money.png in Resources */ = {isa = PBXBuildFile; fileRef = 88663CE61AC0681900E80DD3 /* Money.png */; };
+		88663CE91AC0683C00E80DD3 /* Spalsh.png in Resources */ = {isa = PBXBuildFile; fileRef = 88663CE81AC0683C00E80DD3 /* Spalsh.png */; };
+		88663CEB1AC0692600E80DD3 /* Signin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88663CEA1AC0692600E80DD3 /* Signin@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		880217CB1AC0504B00EE4DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880217A91AC0504900EE4DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880217B01AC0504A00EE4DDA;
+			remoteInfo = Layaway;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		880217B11AC0504A00EE4DDA /* Layaway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Layaway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		880217B51AC0504A00EE4DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880217B61AC0504A00EE4DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		880217B81AC0504B00EE4DDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		880217B91AC0504B00EE4DDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		880217BB1AC0504B00EE4DDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		880217BC1AC0504B00EE4DDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		880217BF1AC0504B00EE4DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		880217C11AC0504B00EE4DDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		880217C41AC0504B00EE4DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		880217CA1AC0504B00EE4DDA /* LayawayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayawayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880217CF1AC0504B00EE4DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880217D01AC0504B00EE4DDA /* LayawayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayawayTests.m; sourceTree = "<group>"; };
+		88663CDB1AC05B8800E80DD3 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		88663CDC1AC05B8800E80DD3 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		88663CDE1AC05CD500E80DD3 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		88663CDF1AC05CD500E80DD3 /* page4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page4.png; sourceTree = "<group>"; };
+		88663CE01AC05CD500E80DD3 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		88663CE11AC05CD500E80DD3 /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		88663CE61AC0681900E80DD3 /* Money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Money.png; sourceTree = "<group>"; };
+		88663CE81AC0683C00E80DD3 /* Spalsh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spalsh.png; sourceTree = "<group>"; };
+		88663CEA1AC0692600E80DD3 /* Signin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Signin@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		880217AE1AC0504A00EE4DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880217C71AC0504B00EE4DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC0DF381DFA8F9100B35D46 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				88663CEA1AC0692600E80DD3 /* Signin@2x.png */,
+				88663CE81AC0683C00E80DD3 /* Spalsh.png */,
+				88663CE61AC0681900E80DD3 /* Money.png */,
+				88663CDE1AC05CD500E80DD3 /* page1.png */,
+				88663CDF1AC05CD500E80DD3 /* page4.png */,
+				88663CE01AC05CD500E80DD3 /* page3.png */,
+				88663CE11AC05CD500E80DD3 /* page2.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		880217A81AC0504900EE4DDA = {
+			isa = PBXGroup;
+			children = (
+				880217B31AC0504A00EE4DDA /* Layaway */,
+				880217CD1AC0504B00EE4DDA /* LayawayTests */,
+				880217B21AC0504A00EE4DDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		880217B21AC0504A00EE4DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880217B11AC0504A00EE4DDA /* Layaway.app */,
+				880217CA1AC0504B00EE4DDA /* LayawayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		880217B31AC0504A00EE4DDA /* Layaway */ = {
+			isa = PBXGroup;
+			children = (
+				880217B81AC0504B00EE4DDA /* AppDelegate.h */,
+				880217B91AC0504B00EE4DDA /* AppDelegate.m */,
+				880217BB1AC0504B00EE4DDA /* ViewController.h */,
+				880217BC1AC0504B00EE4DDA /* ViewController.m */,
+				88663CDB1AC05B8800E80DD3 /* PageContentViewController.h */,
+				88663CDC1AC05B8800E80DD3 /* PageContentViewController.m */,
+				880217BE1AC0504B00EE4DDA /* Main.storyboard */,
+				880217C11AC0504B00EE4DDA /* Images.xcassets */,
+				880217C31AC0504B00EE4DDA /* LaunchScreen.xib */,
+				0FC0DF381DFA8F9100B35D46 /* Images */,
+				880217B41AC0504A00EE4DDA /* Supporting Files */,
+			);
+			path = Layaway;
+			sourceTree = "<group>";
+		};
+		880217B41AC0504A00EE4DDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				880217B51AC0504A00EE4DDA /* Info.plist */,
+				880217B61AC0504A00EE4DDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		880217CD1AC0504B00EE4DDA /* LayawayTests */ = {
+			isa = PBXGroup;
+			children = (
+				880217D01AC0504B00EE4DDA /* LayawayTests.m */,
+				880217CE1AC0504B00EE4DDA /* Supporting Files */,
+			);
+			path = LayawayTests;
+			sourceTree = "<group>";
+		};
+		880217CE1AC0504B00EE4DDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				880217CF1AC0504B00EE4DDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		880217B01AC0504A00EE4DDA /* Layaway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880217D41AC0504B00EE4DDA /* Build configuration list for PBXNativeTarget "Layaway" */;
+			buildPhases = (
+				880217AD1AC0504A00EE4DDA /* Sources */,
+				880217AE1AC0504A00EE4DDA /* Frameworks */,
+				880217AF1AC0504A00EE4DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Layaway;
+			productName = Layaway;
+			productReference = 880217B11AC0504A00EE4DDA /* Layaway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		880217C91AC0504B00EE4DDA /* LayawayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880217D71AC0504B00EE4DDA /* Build configuration list for PBXNativeTarget "LayawayTests" */;
+			buildPhases = (
+				880217C61AC0504B00EE4DDA /* Sources */,
+				880217C71AC0504B00EE4DDA /* Frameworks */,
+				880217C81AC0504B00EE4DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880217CC1AC0504B00EE4DDA /* PBXTargetDependency */,
+			);
+			name = LayawayTests;
+			productName = LayawayTests;
+			productReference = 880217CA1AC0504B00EE4DDA /* LayawayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		880217A91AC0504900EE4DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Veera;
+				TargetAttributes = {
+					880217B01AC0504A00EE4DDA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					880217C91AC0504B00EE4DDA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 880217B01AC0504A00EE4DDA;
+					};
+				};
+			};
+			buildConfigurationList = 880217AC1AC0504900EE4DDA /* Build configuration list for PBXProject "Layaway" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 880217A81AC0504900EE4DDA;
+			productRefGroup = 880217B21AC0504A00EE4DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				880217B01AC0504A00EE4DDA /* Layaway */,
+				880217C91AC0504B00EE4DDA /* LayawayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880217AF1AC0504A00EE4DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88663CE31AC05CD500E80DD3 /* page4.png in Resources */,
+				880217C01AC0504B00EE4DDA /* Main.storyboard in Resources */,
+				88663CE51AC05CD500E80DD3 /* page2.png in Resources */,
+				88663CE41AC05CD500E80DD3 /* page3.png in Resources */,
+				88663CE71AC0681900E80DD3 /* Money.png in Resources */,
+				88663CE91AC0683C00E80DD3 /* Spalsh.png in Resources */,
+				880217C51AC0504B00EE4DDA /* LaunchScreen.xib in Resources */,
+				88663CEB1AC0692600E80DD3 /* Signin@2x.png in Resources */,
+				88663CE21AC05CD500E80DD3 /* page1.png in Resources */,
+				880217C21AC0504B00EE4DDA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880217C81AC0504B00EE4DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880217AD1AC0504A00EE4DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880217BD1AC0504B00EE4DDA /* ViewController.m in Sources */,
+				88663CDD1AC05B8800E80DD3 /* PageContentViewController.m in Sources */,
+				880217BA1AC0504B00EE4DDA /* AppDelegate.m in Sources */,
+				880217B71AC0504A00EE4DDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880217C61AC0504B00EE4DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880217D11AC0504B00EE4DDA /* LayawayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		880217CC1AC0504B00EE4DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880217B01AC0504A00EE4DDA /* Layaway */;
+			targetProxy = 880217CB1AC0504B00EE4DDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		880217BE1AC0504B00EE4DDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880217BF1AC0504B00EE4DDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		880217C31AC0504B00EE4DDA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880217C41AC0504B00EE4DDA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		880217D21AC0504B00EE4DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		880217D31AC0504B00EE4DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		880217D51AC0504B00EE4DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Layaway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		880217D61AC0504B00EE4DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Layaway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		880217D81AC0504B00EE4DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LayawayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Layaway.app/Layaway";
+			};
+			name = Debug;
+		};
+		880217D91AC0504B00EE4DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LayawayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Layaway.app/Layaway";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		880217AC1AC0504900EE4DDA /* Build configuration list for PBXProject "Layaway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880217D21AC0504B00EE4DDA /* Debug */,
+				880217D31AC0504B00EE4DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880217D41AC0504B00EE4DDA /* Build configuration list for PBXNativeTarget "Layaway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880217D51AC0504B00EE4DDA /* Debug */,
+				880217D61AC0504B00EE4DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880217D71AC0504B00EE4DDA /* Build configuration list for PBXNativeTarget "LayawayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880217D81AC0504B00EE4DDA /* Debug */,
+				880217D91AC0504B00EE4DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 880217A91AC0504900EE4DDA /* Project object */;
+}
